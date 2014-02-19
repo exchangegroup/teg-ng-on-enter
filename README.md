@@ -1,13 +1,14 @@
 # AngularJS directives
 
-Evaluates code when <Enter> is pressed in input.
+Evaluates code when `Enter` is pressed in the input element.
 
 ## Usage:
 
+Evaluates the code inside `scope.$apply`
 
     <input teg-on-enter='codeToRun()'>
 
-or
+or evaluates the code without `scope.$apply`
 
     <input teg-on-enter-no-apply='codeToRun()'>
 
