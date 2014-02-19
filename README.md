@@ -8,7 +8,7 @@ Evaluates the code inside `scope.$apply`
 
     <input teg-on-enter='codeToRun()'>
 
-or evaluates the code without `scope.$apply`
+or without `scope.$apply`
 
     <input teg-on-enter-no-apply='codeToRun()'>
 
