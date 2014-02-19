@@ -15,4 +15,4 @@ or without `scope.$apply`
 ## Note
 
 After running the code the input looses focus. This is needed to hide virtual keyboard.
-Input will not loose focus if the code evaluates to false.
+If you do not want input to loose focuse - the code should evaluate to `false`.
