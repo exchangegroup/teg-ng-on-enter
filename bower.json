@@ -11,7 +11,8 @@
   },
   "ignore": [
     ".*",
-    "test/*",
+    "test",
+    "src",
     "karma*"
   ],
   "private": true
