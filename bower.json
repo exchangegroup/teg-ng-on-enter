@@ -1,7 +1,6 @@
 {
-  "name": "ng-teg-on-enter",
-  "version": "0.1.0",
-  "main": "ng-teg-on-enter.js",
+  "name": "teg-ng-on-enter",
+  "main": "dist/teg-ng-on-enter.min.js",
   "dependencies": {
   },
   "devDependencies": {
