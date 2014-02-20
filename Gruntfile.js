@@ -19,12 +19,21 @@ module.exports = function(grunt) {
           'teg-ng-on-enter.min.js': ['teg-ng-on-enter.js']
         }
       }
+    },
+    karma: {
+      unit: {
+        configFile: 'karma.conf.js',
+        singleRun: true
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-coffee');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-ngmin');
+  grunt.loadNpmTasks('grunt-karma');
+
+  grunt.registerTask('test', ['karma']);
 
   grunt.registerTask('default', ['coffee', 'ngmin', 'uglify']);
 };

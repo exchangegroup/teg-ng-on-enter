@@ -4,5 +4,9 @@
   "main": "ng-teg-on-enter.js",
   "dependencies": {
   },
+  "devDependencies": {
+    "angular": "1.2.6",
+    "angular-mocks": "1.2.13"
+  },
   "private": true
 }
