@@ -8,7 +8,7 @@ Include the JS script:
 
     <script src="/bower_components/teg-ng-on-enter/dist/teg-ng-on-enter.min.js"></script>
 
-Add `TegNgOnEnter` module to your app's dependecies
+Add `TegNgOnEnter` module to your app's dependencies:
 
     angular.module('YourApp', ['TegNgOnEnter'])
 
