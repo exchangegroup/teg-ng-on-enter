@@ -3,20 +3,20 @@ module.exports = function(grunt) {
     coffee: {
       compile: {
         files: {
-          'teg-ng-on-enter.js': 'src/teg-ng-on-enter.coffee'
+          'dist/teg-ng-on-enter.js': 'src/teg-ng-on-enter.coffee'
         }
       }
     },
     ngmin: {
       directives: {
-        src: ['teg-ng-on-enter.js'],
-        dest: 'teg-ng-on-enter.js'
+        src: ['dist/teg-ng-on-enter.js'],
+        dest: 'dist/teg-ng-on-enter.js'
       }
     },
     uglify: {
       my_target: {
         files: {
-          'teg-ng-on-enter.min.js': ['teg-ng-on-enter.js']
+          'dist/teg-ng-on-enter.min.js': ['dist/teg-ng-on-enter.js']
         }
       }
     },
