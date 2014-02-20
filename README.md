@@ -47,3 +47,8 @@ Test:
 Build:
 
     grunt
+
+Finally, bump bower version number:
+
+    git tag v0.1.[patch number]
+    git push origin v0.1.[patch number]
