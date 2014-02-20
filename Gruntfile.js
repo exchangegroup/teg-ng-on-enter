@@ -3,4 +3,7 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-contrib-coffee');
+
+  // Default task(s).
+  grunt.registerTask('default', ['coffee']);
 };
