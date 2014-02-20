@@ -46,4 +46,4 @@ Test:
 
 Build:
 
-    Grunt
+    grunt
