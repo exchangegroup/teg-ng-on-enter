@@ -13,7 +13,8 @@
     "test",
     "src",
     "karma*",
-    "package.json"
+    "package.json",
+    "Gruntfile.js"
   ],
   "private": true
 }
