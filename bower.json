@@ -13,7 +13,7 @@
     ".*",
     "test",
     "src",
-    "karma*"
+    "karma*",
     "package.json"
   ],
   "private": true
