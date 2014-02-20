@@ -16,9 +16,9 @@ angular.module('TegNgOnEnter', [])
       element.blur()
   }
 )
-.directive('tegNgOnEnter', ['tegNgOnEnter', (tegNgOnEnter) ->
+.directive('tegNgOnEnter', (tegNgOnEnter) ->
   (scope, element, attrs) -> tegNgOnEnter.bindEnter(scope, element, attrs.tegNgOnEnter, true)
-])
-.directive('tegNgOnEnterNoApply', ['tegNgOnEnter', (tegNgOnEnter) ->
+)
+.directive('tegNgOnEnterNoApply', (tegNgOnEnter) ->
   (scope, element, attrs) -> tegNgOnEnter.bindEnter(scope, element, attrs.tegNgOnEnterNoApply, false)
-])
+)

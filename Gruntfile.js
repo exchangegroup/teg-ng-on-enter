@@ -7,6 +7,12 @@ module.exports = function(grunt) {
         }
       }
     },
+    ngmin: {
+      directives: {
+        src: ['teg-ng-on-enter.js'],
+        dest: 'teg-ng-on-enter.js'
+      }
+    },
     uglify: {
       my_target: {
         files: {
@@ -18,7 +24,7 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-coffee');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-ngmin');
 
-  // Default task(s).
-  grunt.registerTask('default', ['coffee', 'uglify']);
+  grunt.registerTask('default', ['coffee', 'ngmin', 'uglify']);
 };
