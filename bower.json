@@ -5,8 +5,9 @@
   "dependencies": {
   },
   "devDependencies": {
-    "angular": "1.2.6",
-    "angular-mocks": "1.2.13"
+    "angular": "1.2.13",
+    "angular-mocks": "1.2.13",
+    "jquery": "1.11.0"
   },
   "private": true
 }
