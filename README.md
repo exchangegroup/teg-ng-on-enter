@@ -2,7 +2,7 @@
 
 Evaluates code when `Enter` is pressed in the input element.
 
-## Installation
+## Install
 
 Include the JS script:
 
@@ -12,7 +12,7 @@ Add `TegNgOnEnter` module to your app's dependecies
 
     angular.module('YourApp', ['TegNgOnEnter'])
 
-## Usage:
+## Use
 
 Evaluates the code inside `scope.$apply`
 
