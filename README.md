@@ -4,6 +4,8 @@ Evaluates code when `Enter` is pressed in the input element.
 
 ## Install
 
+    bower install git@github.com:bikeexchange/teg-ng-on-enter.git
+
 Include the JS script:
 
     <script src="/bower_components/teg-ng-on-enter/dist/teg-ng-on-enter.min.js"></script>
@@ -27,3 +29,21 @@ or without `scope.$apply`
 After running the code the input looses focus. This is needed to hide virtual keyboard.
 
 If you do not want input to loose focuse - the code should evaluate to `false`.
+
+
+## Development
+
+Setup:
+
+    git clone git@github.com:bikeexchange/teg-ng-on-enter.git
+    cd teg-ng-on-enter
+    npm install
+    bower install
+
+Test:
+
+    grunt test
+
+Build:
+
+    Grunt
