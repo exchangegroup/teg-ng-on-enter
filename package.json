@@ -1,5 +1,6 @@
 {
   "name": "teg-ng-on-enter",
+  "version": "0.0.1",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-coffee": "~0.10.1",
