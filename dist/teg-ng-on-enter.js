@@ -5,9 +5,7 @@
         return element.bind('keydown', function (_this) {
           return function (event) {
             var keyCode;
-            console.log('hihihihi');
             keyCode = event.keyCode != null ? event.keyCode : event.which;
-            console.log(keyCode);
             if (keyCode !== 13) {
               return;
             }

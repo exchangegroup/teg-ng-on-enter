@@ -44,6 +44,10 @@ Test:
 
     grunt test
 
+Demo in browser:
+
+    grunt serve
+
 Build:
 
     grunt
