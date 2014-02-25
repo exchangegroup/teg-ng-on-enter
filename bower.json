@@ -6,7 +6,9 @@
   "devDependencies": {
     "angular": "1.2.13",
     "angular-mocks": "1.2.13",
-    "jquery": "1.11.0"
+    "jquery": "1.11.0",
+    "es5-shim": "~2.3.0",
+    "json3": "~3.2.6"
   },
   "ignore": [
     ".*",

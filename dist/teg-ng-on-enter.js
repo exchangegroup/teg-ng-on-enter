@@ -4,7 +4,11 @@
       bindEnter: function (scope, element, attr, doApply) {
         return element.bind('keydown', function (_this) {
           return function (event) {
-            if (event.which !== 13) {
+            var keyCode;
+            console.log('hihihihi');
+            keyCode = event.keyCode != null ? event.keyCode : event.which;
+            console.log(keyCode);
+            if (keyCode !== 13) {
               return;
             }
             if (doApply) {
@@ -24,7 +28,7 @@
           return;
         }
         event.preventDefault();
-        return element.blur();
+        return element[0].blur();
       }
     };
   }).directive('tegNgOnEnter', [

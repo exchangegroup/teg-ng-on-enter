@@ -3,7 +3,8 @@ angular.module('TegNgOnEnter', [])
   {
     bindEnter: (scope, element, attr, doApply) ->
       element.bind 'keydown', (event) =>
-        return unless event.which == 13
+        keyCode = if event.keyCode? then event.keyCode else event.which
+        return unless keyCode == 13
         if doApply
           scope.$apply => @evalExpression(scope, element, attr, event)
         else
@@ -13,7 +14,7 @@ angular.module('TegNgOnEnter', [])
       result = scope.$eval(attr)
       return if result == false
       event.preventDefault()
-      element.blur()
+      element[0].blur()
   }
 )
 .directive('tegNgOnEnter', (tegNgOnEnter) ->
