@@ -13,6 +13,7 @@
   "ignore": [
     ".*",
     "test",
+    "app",
     "src",
     "karma*",
     "package.json",
