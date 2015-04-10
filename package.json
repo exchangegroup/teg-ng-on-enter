@@ -20,5 +20,7 @@
     "grunt-contrib-connect": "~0.7.0",
     "load-grunt-tasks": "~0.3.0",
     "grunt-contrib-watch": "~0.5.3"
-  }
+  },
+  "repository": "git://github.com/exchangegroup/teg-ng-on-enter",
+  "main": "dist/teg-ng-on-enter.js"
 }
